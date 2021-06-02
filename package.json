@@ -32,7 +32,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "serve -s build",
+    "serve": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "npm install -g serve",
     "test": "react-scripts test",
