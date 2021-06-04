@@ -3,6 +3,7 @@ const fs = require("fs");
 const util = require("util");
 
 const exec = util.promisify(require("child_process").exec);
+
 const readInterface = readline.createInterface({
   input: fs.createReadStream("./.env.production"),
   output: process.stdout,
